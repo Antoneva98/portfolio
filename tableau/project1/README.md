@@ -5,12 +5,18 @@ Each dashboard includes interactive filters and clear visual storytelling to sup
   
 📈 Dashboards Overview  
 
-1. Email Metrics Dashboard
+
+1. A/B Test Session Analysis Dashboard
+	•	Purpose: Visualize and compare user session data across A/B test groups
+	•	Metrics: Session counts by device, continent, and country
+	•	Features: Interactive filters for date, channel, country, and device; group balancing overview; device, continent, and country breakdowns; tooltips for in-depth metric exploration
+
+3. Email Metrics Dashboard
 	•	Purpose: Monitor key email campaign KPIs
 	•	Metrics: Open Rate, Click Rate, CTOR
 	•	Features: Time trends, country performance, campaign optimization insights
 
-3. Fruit Sales Dashboard
+4. Fruit Sales Dashboard
 	•	Purpose: Analyze fruit sales performance
 	•	Metrics: Sales volume, daily product trends, category dynamics
 	•	Features: Regional analysis, top countries, interactive drill-downs
@@ -20,15 +26,11 @@ Each dashboard includes interactive filters and clear visual storytelling to sup
 	•	Metrics: Content type distribution, release years, durations
 	•	Features: Movies vs. TV shows, top producing countries, temporal trends
 
-7. Sales Quality Dashboard
+6. Sales Quality Dashboard
 	•	Purpose: Compare sales and returns to assess product performance
 	•	Metrics: Sales/returns over time, unit prices, regional sales
 	•	Features: Top-10 by price, country insights, time-based analysis
 
-9. A/B Test Session Analysis Dashboard
-	•	Purpose: Visualize and compare user session data across A/B test groups
-	•	Metrics: Session counts by device, continent, and country
-	•	Features: Interactive filters for date, channel, country, and device; group balancing overview; device, continent, and country breakdowns; tooltips for in-depth metric exploration
 
 
 🧭 How to Use
