@@ -33,7 +33,7 @@ Each dashboard includes interactive filters and clear visual storytelling to sup
 
 
 
-🧭 How to Use
+🧭 How to Use  
 	1.	Download the `.twbx` files from this folder
 	2.	Open them using Tableau Desktop
 	3.	Use filters and tooltips for deeper insights
@@ -41,12 +41,13 @@ Each dashboard includes interactive filters and clear visual storytelling to sup
  
 📁 File List
 
-| Dashboard               | File Name               |
-|-------------------------|-------------------------|
-| Email Metrics           | `email_metrics.twbx`    |
-| Fruit Sales             | `fruit_sales.twbx`      |
-| Netflix Content         | `netflix_dashboard.twbx`|
-| Sales Quality Analysis  | `sales_quality.twbx`    |
+| Dashboard                  | File Name                         |
+|----------------------------|-----------------------------------|
+| A/B Test Session Analysis  | `ab_test_session_analysis.twbx`   |
+| Email Metrics              | `email_metrics.twbx`              |
+| Fruit Sales                | `fruit_sales.twbx`                |
+| Netflix Content            | `netflix_dashboard.twbx`          |
+| Sales Quality Analysis     | `sales_quality.twbx`              |
 
 ---
 
