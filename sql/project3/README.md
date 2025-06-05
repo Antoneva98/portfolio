@@ -2,20 +2,20 @@ Here’s a step-by-step breakdown of the SQL query
 
 ⸻
 
-1. session_info
- WITH session_info AS (
-  SELECT  
-    s.date,
-    s.ga_session_id,
-    sp.country,
-    sp.device,
-    sp.continent,
-    sp.channel,
-    ab.test,
-    ab.test_group
-  FROM `ab_test` ab
-  JOIN `session` s ON ab.ga_session_id = s.ga_session_id
-  JOIN `session_params` sp ON sp.ga_session_id = ab.ga_session_id
+1. session_info  
+ WITH session_info AS (  
+  SELECT    
+    s.date,  
+    s.ga_session_id,  
+    sp.country,  
+    sp.device,  
+    sp.continent,  
+    sp.channel,  
+    ab.test,  
+    ab.test_group  
+  FROM `ab_test` ab  
+  JOIN `session` s ON ab.ga_session_id = s.ga_session_id  
+  JOIN `session_params` sp ON sp.ga_session_id = ab.ga_session_id  
 )
 What it does:
 	•	This is the base dataset containing all sessions that participated in an A/B test.
